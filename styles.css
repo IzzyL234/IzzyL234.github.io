@@ -36,7 +36,7 @@ summary { cursor:pointer; text-decoration:underline; text-underline-offset:4px; 
 @media (max-width: 520px) { .wrap { margin-top: 54px; } nav { gap: 12px 20px; margin-bottom: 36px; } h1 { letter-spacing: -1px; } }
 @media print { .wrap { width: 100%; margin: 0; } nav,.skip,.download { display: none; } }
 #photo-gallery figure { margin:0; }
-#gallery-photo { display:block; width:auto; max-width:100%; height:auto; margin:0 auto; background:#fff; touch-action:pan-y; }
+#gallery-photo { display:block; width:100%; height:auto; margin:0 auto; background:#fff; touch-action:pan-y; }
 .gallery-controls { justify-content:space-between; margin-top:18px; }
 .gallery-controls output { font-size:14px; font-variant-numeric:tabular-nums; }
 #photo-gallery:focus-visible { outline:2px solid #000; outline-offset:8px; }
