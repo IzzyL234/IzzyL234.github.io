@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+html { color-scheme: light; }
+body { margin: 0; background: #fff; color: #000; font: 16px/1.65 Arial, sans-serif; }
+.wrap { width: min(760px, calc(100% - 48px)); margin: 100px auto 72px; }
+h1,h2,h3 { font-family: "Times New Roman", Times, serif; font-weight: 400; line-height: 1.12; }
+h1 { font-size: clamp(3.5rem, 10vw, 5.5rem); margin: 0 0 20px; letter-spacing: -2px; }
+h1 a { text-decoration: none; }
+h2 { font-size: 2.25rem; margin: 0 0 28px; }
+h3 { font-size: 1.5rem; margin: 0 0 8px; }
+a { color: inherit; text-underline-offset: 5px; }
+a:hover { text-decoration-thickness: 2px; }
+a:focus-visible { outline: 2px solid #000; outline-offset: 6px; }
+header p { margin: 4px 0; }
+nav { display: flex; flex-wrap: wrap; gap: 12px 28px; margin: 35px 0 52px; padding-bottom: 17px; border-bottom: 1px solid #000; }
+nav a { text-decoration: none; }
+nav a[aria-current="page"] { text-decoration: underline; }
+main p { max-width: 670px; margin: 0 0 20px; }
+article { margin: 0 0 32px; }
+.meta { font-size: 14px; margin: 0 0 10px; }
+.group { margin-top: 46px; }
+ul { padding-left: 21px; }
+.skip { position: absolute; left: -9999px; }
+.skip:focus { left: 24px; top: 20px; }
+@media (max-width: 520px) { .wrap { margin-top: 54px; } nav { gap: 12px 20px; margin-bottom: 36px; } h1 { letter-spacing: -1px; } }
+@media print { .wrap { width: 100%; margin: 0; } nav,.skip,.download { display: none; } }
