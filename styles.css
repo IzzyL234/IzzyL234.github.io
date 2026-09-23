@@ -19,6 +19,18 @@ article { margin: 0 0 32px; }
 .meta { font-size: 14px; margin: 0 0 10px; }
 .group { margin-top: 46px; }
 ul { padding-left: 21px; }
+button, select { font: inherit; color: #000; background: #fff; border: 1px solid #000; border-radius: 0; padding: 7px 12px; }
+button { cursor: pointer; }
+button:hover { color: #fff; background: #000; }
+button:focus-visible,select:focus-visible,summary:focus-visible { outline: 2px solid #000; outline-offset: 4px; }
+.section-heading { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:baseline; gap:12px; }
+.section-heading h2 { font-size:1.8rem; margin-bottom:18px; }
+#ant-count { font-size:14px; font-variant-numeric:tabular-nums; }
+#ant { display:block; width:min(100%,420px); height:auto; margin:0 auto 24px; border:1px solid #ddd; image-rendering:pixelated; }
+.controls { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-bottom:20px; }
+.controls label { display:flex; gap:8px; align-items:center; }
+.ant-note,details { font-size:14px; }
+summary { cursor:pointer; text-decoration:underline; text-underline-offset:4px; margin-bottom:12px; }
 .skip { position: absolute; left: -9999px; }
 .skip:focus { left: 24px; top: 20px; }
 @media (max-width: 520px) { .wrap { margin-top: 54px; } nav { gap: 12px 20px; margin-bottom: 36px; } h1 { letter-spacing: -1px; } }
